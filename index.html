@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>JQuery</title>
+	
+	<style type="text/css">
+		body{
+			font-family: Helvetica, "Sans serif";
+			font-size: 17px;
+		}
+		
+		label{
+			width: 150px;
+			display: inline-block;
+		}
+		
+		input{
+			padding: 5px;
+			padding-bottom: 8px;
+			border: 1px solid #666;
+			border-radius: 4px;
+			width: 250px;
+			font-size: 16px;
+		}
+		
+		.form-element{
+			margin-bottom: 15px;
+		}
+		
+		#submitButton{
+			width: 120px;
+			margin-left: 155px;
+			background-color: #44ff44;
+			cursor: pointer;
+		}
+		
+		#submitButton:hover{
+			border-width: 2px;
+			color: #666;
+		}
+	</style>
+	
+	<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+	<div class="form-element">
+		<label for="email">Email:</label>
+		
+		<input type="text" id="email" placeholder="yourname@example.com">
+	</div>
+	
+	<div class="form-element">
+		<label for="phone">Phone:</label>
+		
+		<input type="text" id="phone" placeholder="0123456789">
+	</div>
+	
+	<div class="form-element">
+		<label for="password">Password:</label>
+		
+		<input type="password" id="password" placeholder="Your password">
+	</div>
+	
+	<div class="form-element">
+		<label for="confirmPassword">Confirm Password:</label>
+		
+		<input type="password" id="confirmPassword" placeholder="Confirm password">
+	</div>
+	
+	<div class="form-element">
+		<input type="submit" id="submitButton" value="Sign Up">
+	</div>
+	
+	<script type="text/javascript">
+	
+	</script>
+</body>
+</html>
